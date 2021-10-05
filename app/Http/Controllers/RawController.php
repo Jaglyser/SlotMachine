@@ -18,7 +18,7 @@ class RawController extends Controller
 
 
         for($n = 0; $n < 15; $n++){
-            $key = mt_rand(0, 2);
+            $key = mt_rand(0, 9);
             $board[] = $symbols[$key];
         }
         return $board;
@@ -116,7 +116,9 @@ class RawController extends Controller
 
             // the total win sum
             $win += $multiplier*100;
-
+            
+            // calls the payLineNumber function which remembers:
+            // which payline that won, and how many symbols in a row it was
             if($multiplier != 0){
                 $fpaylines[] = $this->payLineNunber($payline, $multiplier);
             }
@@ -138,7 +140,8 @@ class RawController extends Controller
     public function playSlot(){
         $this->findWinner();
     }
-
+    
+    // remebers which payline won and how many symbols in a row
     public function payLineNunber($payline, $multiplier){
         $pay_line_number = [
             0.2 => [$payline => 3],
