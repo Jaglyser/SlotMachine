@@ -1,0 +1,839 @@
+[2021-08-20 08:24:09] local.ERROR: Command "play" is not defined. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"play\" is not defined. at C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Application.php:682)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Application.php(255): Symfony\\Component\\Console\\Application->find()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(92): Symfony\\Component\\Console\\Application->run()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Illuminate\\Console\\Application->run()
+#4 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#5 {main}
+"} 
+[2021-08-20 08:26:31] local.ERROR: Target class [App\Console\Commands\PlayCommand] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [App\\Console\\Commands\\PlayCommand] does not exist. at C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php:875)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(260): Laravel\\Lumen\\Application->make()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(274): Illuminate\\Console\\Application->resolve()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(212): Illuminate\\Console\\Application->resolveCommands()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Laravel\\Lumen\\Console\\Kernel->getArtisan()
+#7 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#8 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"App\\Console\\Commands\\PlayCommand\" does not exist at C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php:873)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(873): ReflectionClass->__construct()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(260): Laravel\\Lumen\\Application->make()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(274): Illuminate\\Console\\Application->resolve()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(212): Illuminate\\Console\\Application->resolveCommands()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Laravel\\Lumen\\Console\\Kernel->getArtisan()
+#8 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#9 {main}
+"} 
+[2021-08-20 08:26:38] local.ERROR: Target class [App\Console\Commands\PlayCommand] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [App\\Console\\Commands\\PlayCommand] does not exist. at C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php:875)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(260): Laravel\\Lumen\\Application->make()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(274): Illuminate\\Console\\Application->resolve()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(212): Illuminate\\Console\\Application->resolveCommands()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Laravel\\Lumen\\Console\\Kernel->getArtisan()
+#7 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#8 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"App\\Console\\Commands\\PlayCommand\" does not exist at C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php:873)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(873): ReflectionClass->__construct()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(260): Laravel\\Lumen\\Application->make()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(274): Illuminate\\Console\\Application->resolve()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(212): Illuminate\\Console\\Application->resolveCommands()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Laravel\\Lumen\\Console\\Kernel->getArtisan()
+#8 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#9 {main}
+"} 
+[2021-08-20 08:28:36] local.ERROR: Target class [App\Console\Commands\PlayCommand] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [App\\Console\\Commands\\PlayCommand] does not exist. at C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php:875)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(260): Laravel\\Lumen\\Application->make()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(274): Illuminate\\Console\\Application->resolve()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(212): Illuminate\\Console\\Application->resolveCommands()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Laravel\\Lumen\\Console\\Kernel->getArtisan()
+#7 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#8 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"App\\Console\\Commands\\PlayCommand\" does not exist at C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php:873)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(873): ReflectionClass->__construct()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(260): Laravel\\Lumen\\Application->make()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(274): Illuminate\\Console\\Application->resolve()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(212): Illuminate\\Console\\Application->resolveCommands()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Laravel\\Lumen\\Console\\Kernel->getArtisan()
+#8 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#9 {main}
+"} 
+[2021-08-20 08:30:08] local.ERROR: Target class [App\Console\Commands\CommandName] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [App\\Console\\Commands\\CommandName] does not exist. at C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php:875)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(260): Laravel\\Lumen\\Application->make()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(274): Illuminate\\Console\\Application->resolve()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(212): Illuminate\\Console\\Application->resolveCommands()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Laravel\\Lumen\\Console\\Kernel->getArtisan()
+#7 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#8 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"App\\Console\\Commands\\CommandName\" does not exist at C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php:873)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(873): ReflectionClass->__construct()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(260): Laravel\\Lumen\\Application->make()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(274): Illuminate\\Console\\Application->resolve()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(212): Illuminate\\Console\\Application->resolveCommands()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Laravel\\Lumen\\Console\\Kernel->getArtisan()
+#8 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#9 {main}
+"} 
+[2021-08-20 08:31:43] local.ERROR: Target class [\App\Console\Commands\CommandName::class] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [\\App\\Console\\Commands\\CommandName::class] does not exist. at C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php:875)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(260): Laravel\\Lumen\\Application->make()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(274): Illuminate\\Console\\Application->resolve()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(212): Illuminate\\Console\\Application->resolveCommands()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Laravel\\Lumen\\Console\\Kernel->getArtisan()
+#7 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#8 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"\\App\\Console\\Commands\\CommandName::class\" does not exist at C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php:873)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(873): ReflectionClass->__construct()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(260): Laravel\\Lumen\\Application->make()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(274): Illuminate\\Console\\Application->resolve()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(212): Illuminate\\Console\\Application->resolveCommands()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Laravel\\Lumen\\Console\\Kernel->getArtisan()
+#8 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#9 {main}
+"} 
+[2021-08-20 08:31:55] local.ERROR: Target class [\App\Console\Commands\CommandName] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [\\App\\Console\\Commands\\CommandName] does not exist. at C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php:875)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(260): Laravel\\Lumen\\Application->make()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(274): Illuminate\\Console\\Application->resolve()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(212): Illuminate\\Console\\Application->resolveCommands()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Laravel\\Lumen\\Console\\Kernel->getArtisan()
+#7 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#8 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"\\App\\Console\\Commands\\CommandName\" does not exist at C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php:873)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(873): ReflectionClass->__construct()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(260): Laravel\\Lumen\\Application->make()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(274): Illuminate\\Console\\Application->resolve()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(212): Illuminate\\Console\\Application->resolveCommands()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Laravel\\Lumen\\Console\\Kernel->getArtisan()
+#8 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#9 {main}
+"} 
+[2021-08-20 08:32:24] local.ERROR: Target class [App\Console\Commands\CommandName] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [App\\Console\\Commands\\CommandName] does not exist. at C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php:875)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(260): Laravel\\Lumen\\Application->make()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(274): Illuminate\\Console\\Application->resolve()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(212): Illuminate\\Console\\Application->resolveCommands()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Laravel\\Lumen\\Console\\Kernel->getArtisan()
+#7 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#8 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"App\\Console\\Commands\\CommandName\" does not exist at C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php:873)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(873): ReflectionClass->__construct()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(260): Laravel\\Lumen\\Application->make()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(274): Illuminate\\Console\\Application->resolve()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(212): Illuminate\\Console\\Application->resolveCommands()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Laravel\\Lumen\\Console\\Kernel->getArtisan()
+#8 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#9 {main}
+"} 
+[2021-08-20 08:34:10] local.ERROR: Target class [App\Console\Commands\CommandName] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [App\\Console\\Commands\\CommandName] does not exist. at C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php:875)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(260): Laravel\\Lumen\\Application->make()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(274): Illuminate\\Console\\Application->resolve()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(212): Illuminate\\Console\\Application->resolveCommands()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Laravel\\Lumen\\Console\\Kernel->getArtisan()
+#7 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#8 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"App\\Console\\Commands\\CommandName\" does not exist at C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php:873)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(873): ReflectionClass->__construct()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(260): Laravel\\Lumen\\Application->make()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(274): Illuminate\\Console\\Application->resolve()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(212): Illuminate\\Console\\Application->resolveCommands()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Laravel\\Lumen\\Console\\Kernel->getArtisan()
+#8 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#9 {main}
+"} 
+[2021-08-20 08:34:13] local.ERROR: Target class [App\Console\Commands\CommandName] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [App\\Console\\Commands\\CommandName] does not exist. at C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php:875)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(260): Laravel\\Lumen\\Application->make()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(274): Illuminate\\Console\\Application->resolve()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(212): Illuminate\\Console\\Application->resolveCommands()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Laravel\\Lumen\\Console\\Kernel->getArtisan()
+#7 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#8 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"App\\Console\\Commands\\CommandName\" does not exist at C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php:873)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(873): ReflectionClass->__construct()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(260): Laravel\\Lumen\\Application->make()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(274): Illuminate\\Console\\Application->resolve()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(212): Illuminate\\Console\\Application->resolveCommands()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Laravel\\Lumen\\Console\\Kernel->getArtisan()
+#8 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#9 {main}
+"} 
+[2021-08-20 08:35:47] local.ERROR: Target class [App\Console\App\Console\Commands\Commands\CommandName] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [App\\Console\\App\\Console\\Commands\\Commands\\CommandName] does not exist. at C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php:875)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(260): Laravel\\Lumen\\Application->make()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(274): Illuminate\\Console\\Application->resolve()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(212): Illuminate\\Console\\Application->resolveCommands()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Laravel\\Lumen\\Console\\Kernel->getArtisan()
+#7 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#8 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"App\\Console\\App\\Console\\Commands\\Commands\\CommandName\" does not exist at C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php:873)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(873): ReflectionClass->__construct()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(260): Laravel\\Lumen\\Application->make()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(274): Illuminate\\Console\\Application->resolve()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(212): Illuminate\\Console\\Application->resolveCommands()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Laravel\\Lumen\\Console\\Kernel->getArtisan()
+#8 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#9 {main}
+"} 
+[2021-08-20 08:36:37] local.ERROR: Target class [App\Console\App\Console\Commands\Commands\CommandName] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [App\\Console\\App\\Console\\Commands\\Commands\\CommandName] does not exist. at C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php:875)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(260): Laravel\\Lumen\\Application->make()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(274): Illuminate\\Console\\Application->resolve()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(212): Illuminate\\Console\\Application->resolveCommands()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Laravel\\Lumen\\Console\\Kernel->getArtisan()
+#7 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#8 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"App\\Console\\App\\Console\\Commands\\Commands\\CommandName\" does not exist at C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php:873)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(873): ReflectionClass->__construct()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(260): Laravel\\Lumen\\Application->make()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(274): Illuminate\\Console\\Application->resolve()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(212): Illuminate\\Console\\Application->resolveCommands()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Laravel\\Lumen\\Console\\Kernel->getArtisan()
+#8 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#9 {main}
+"} 
+[2021-08-20 08:38:39] local.ERROR: Target class [Commands\Commands\CommandName] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [Commands\\Commands\\CommandName] does not exist. at C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php:875)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(260): Laravel\\Lumen\\Application->make()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(274): Illuminate\\Console\\Application->resolve()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(212): Illuminate\\Console\\Application->resolveCommands()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Laravel\\Lumen\\Console\\Kernel->getArtisan()
+#7 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#8 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"Commands\\Commands\\CommandName\" does not exist at C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php:873)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(873): ReflectionClass->__construct()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(260): Laravel\\Lumen\\Application->make()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(274): Illuminate\\Console\\Application->resolve()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(212): Illuminate\\Console\\Application->resolveCommands()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Laravel\\Lumen\\Console\\Kernel->getArtisan()
+#8 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#9 {main}
+"} 
+[2021-08-20 08:38:55] local.ERROR: Target class [Commands\CommandName] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [Commands\\CommandName] does not exist. at C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php:875)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(260): Laravel\\Lumen\\Application->make()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(274): Illuminate\\Console\\Application->resolve()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(212): Illuminate\\Console\\Application->resolveCommands()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Laravel\\Lumen\\Console\\Kernel->getArtisan()
+#7 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#8 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"Commands\\CommandName\" does not exist at C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php:873)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(873): ReflectionClass->__construct()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(260): Laravel\\Lumen\\Application->make()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(274): Illuminate\\Console\\Application->resolve()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(212): Illuminate\\Console\\Application->resolveCommands()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Laravel\\Lumen\\Console\\Kernel->getArtisan()
+#8 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#9 {main}
+"} 
+[2021-08-20 08:39:14] local.ERROR: Target class [App\Console\App\Console\Commands\CommandName] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [App\\Console\\App\\Console\\Commands\\CommandName] does not exist. at C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php:875)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(260): Laravel\\Lumen\\Application->make()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(274): Illuminate\\Console\\Application->resolve()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(212): Illuminate\\Console\\Application->resolveCommands()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Laravel\\Lumen\\Console\\Kernel->getArtisan()
+#7 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#8 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"App\\Console\\App\\Console\\Commands\\CommandName\" does not exist at C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php:873)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(873): ReflectionClass->__construct()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(260): Laravel\\Lumen\\Application->make()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(274): Illuminate\\Console\\Application->resolve()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(212): Illuminate\\Console\\Application->resolveCommands()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Laravel\\Lumen\\Console\\Kernel->getArtisan()
+#8 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#9 {main}
+"} 
+[2021-08-20 08:39:26] local.ERROR: Target class [Commands\CommandName] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [Commands\\CommandName] does not exist. at C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php:875)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(260): Laravel\\Lumen\\Application->make()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(274): Illuminate\\Console\\Application->resolve()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(212): Illuminate\\Console\\Application->resolveCommands()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Laravel\\Lumen\\Console\\Kernel->getArtisan()
+#7 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#8 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"Commands\\CommandName\" does not exist at C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php:873)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(873): ReflectionClass->__construct()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(260): Laravel\\Lumen\\Application->make()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(274): Illuminate\\Console\\Application->resolve()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(212): Illuminate\\Console\\Application->resolveCommands()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Laravel\\Lumen\\Console\\Kernel->getArtisan()
+#8 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#9 {main}
+"} 
+[2021-08-20 08:39:38] local.ERROR: Target class [Commands\CommandName] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [Commands\\CommandName] does not exist. at C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php:875)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(260): Laravel\\Lumen\\Application->make()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(274): Illuminate\\Console\\Application->resolve()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(212): Illuminate\\Console\\Application->resolveCommands()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Laravel\\Lumen\\Console\\Kernel->getArtisan()
+#7 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#8 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"Commands\\CommandName\" does not exist at C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php:873)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(873): ReflectionClass->__construct()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(260): Laravel\\Lumen\\Application->make()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(274): Illuminate\\Console\\Application->resolve()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(212): Illuminate\\Console\\Application->resolveCommands()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Laravel\\Lumen\\Console\\Kernel->getArtisan()
+#8 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#9 {main}
+"} 
+[2021-08-20 08:39:56] local.ERROR: Target class [App\Console\App\Console\Commands\Commands] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [App\\Console\\App\\Console\\Commands\\Commands] does not exist. at C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php:875)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(260): Laravel\\Lumen\\Application->make()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(274): Illuminate\\Console\\Application->resolve()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(212): Illuminate\\Console\\Application->resolveCommands()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Laravel\\Lumen\\Console\\Kernel->getArtisan()
+#7 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#8 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"App\\Console\\App\\Console\\Commands\\Commands\" does not exist at C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php:873)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(873): ReflectionClass->__construct()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(260): Laravel\\Lumen\\Application->make()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(274): Illuminate\\Console\\Application->resolve()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(212): Illuminate\\Console\\Application->resolveCommands()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Laravel\\Lumen\\Console\\Kernel->getArtisan()
+#8 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#9 {main}
+"} 
+[2021-08-20 08:43:19] local.ERROR: Target class [App\Console\App\Console\Commands\test] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [App\\Console\\App\\Console\\Commands\\test] does not exist. at C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php:875)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(260): Laravel\\Lumen\\Application->make()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(274): Illuminate\\Console\\Application->resolve()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(212): Illuminate\\Console\\Application->resolveCommands()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Laravel\\Lumen\\Console\\Kernel->getArtisan()
+#7 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#8 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"App\\Console\\App\\Console\\Commands\\test\" does not exist at C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php:873)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(873): ReflectionClass->__construct()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(260): Laravel\\Lumen\\Application->make()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(274): Illuminate\\Console\\Application->resolve()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(212): Illuminate\\Console\\Application->resolveCommands()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Laravel\\Lumen\\Console\\Kernel->getArtisan()
+#8 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#9 {main}
+"} 
+[2021-08-20 08:43:38] local.ERROR: Target class [Commands\test] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [Commands\\test] does not exist. at C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php:875)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(260): Laravel\\Lumen\\Application->make()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(274): Illuminate\\Console\\Application->resolve()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(212): Illuminate\\Console\\Application->resolveCommands()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Laravel\\Lumen\\Console\\Kernel->getArtisan()
+#7 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#8 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"Commands\\test\" does not exist at C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php:873)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(873): ReflectionClass->__construct()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(260): Laravel\\Lumen\\Application->make()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(274): Illuminate\\Console\\Application->resolve()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(212): Illuminate\\Console\\Application->resolveCommands()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Laravel\\Lumen\\Console\\Kernel->getArtisan()
+#8 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#9 {main}
+"} 
+[2021-08-20 08:49:42] local.ERROR: Target class [App\Console\test] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [App\\Console\\test] does not exist. at C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php:875)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(260): Laravel\\Lumen\\Application->make()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(274): Illuminate\\Console\\Application->resolve()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(212): Illuminate\\Console\\Application->resolveCommands()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Laravel\\Lumen\\Console\\Kernel->getArtisan()
+#7 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#8 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"App\\Console\\test\" does not exist at C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php:873)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(873): ReflectionClass->__construct()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(260): Laravel\\Lumen\\Application->make()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(274): Illuminate\\Console\\Application->resolve()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(212): Illuminate\\Console\\Application->resolveCommands()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Laravel\\Lumen\\Console\\Kernel->getArtisan()
+#8 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#9 {main}
+"} 
+[2021-08-20 08:50:00] local.ERROR: Target class [App\Console\Commands\test] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [App\\Console\\Commands\\test] does not exist. at C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php:875)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(260): Laravel\\Lumen\\Application->make()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(274): Illuminate\\Console\\Application->resolve()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(212): Illuminate\\Console\\Application->resolveCommands()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Laravel\\Lumen\\Console\\Kernel->getArtisan()
+#7 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#8 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"App\\Console\\Commands\\test\" does not exist at C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php:873)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(873): ReflectionClass->__construct()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(260): Laravel\\Lumen\\Application->make()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(274): Illuminate\\Console\\Application->resolve()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(212): Illuminate\\Console\\Application->resolveCommands()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Laravel\\Lumen\\Console\\Kernel->getArtisan()
+#8 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#9 {main}
+"} 
+[2021-08-20 08:50:59] local.ERROR: Target class [App\Console\Commands\test] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [App\\Console\\Commands\\test] does not exist. at C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php:875)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(260): Laravel\\Lumen\\Application->make()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(274): Illuminate\\Console\\Application->resolve()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(212): Illuminate\\Console\\Application->resolveCommands()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Laravel\\Lumen\\Console\\Kernel->getArtisan()
+#7 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#8 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"App\\Console\\Commands\\test\" does not exist at C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php:873)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(873): ReflectionClass->__construct()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(260): Laravel\\Lumen\\Application->make()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(274): Illuminate\\Console\\Application->resolve()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(212): Illuminate\\Console\\Application->resolveCommands()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Laravel\\Lumen\\Console\\Kernel->getArtisan()
+#8 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#9 {main}
+"} 
+[2021-08-20 08:52:52] local.ERROR: Class "App\Http\Controllers" not found {"exception":"[object] (Error(code: 0): Class \"App\\Http\\Controllers\" not found at C:\\Users\\joelb\awinnovation\aw\\app\\Console\\Commands\\PlayCommand.php:44)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Console\\Commands\\PlayCommand->handle()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(651): Illuminate\\Container\\BoundMethod::call()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Command.php(136): Illuminate\\Container\\Container->call()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Command\\Command.php(299): Illuminate\\Console\\Command->execute()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#8 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Application.php(978): Illuminate\\Console\\Command->run()
+#9 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Application.php(295): Symfony\\Component\\Console\\Application->doRunCommand()
+#10 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#11 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(92): Symfony\\Component\\Console\\Application->run()
+#12 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Illuminate\\Console\\Application->run()
+#13 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#14 {main}
+"} 
+[2021-08-20 08:53:44] local.ERROR: Class "App\Console\Commands\RawController" not found {"exception":"[object] (Error(code: 0): Class \"App\\Console\\Commands\\RawController\" not found at C:\\Users\\joelb\awinnovation\aw\\app\\Console\\Commands\\PlayCommand.php:44)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Console\\Commands\\PlayCommand->handle()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(651): Illuminate\\Container\\BoundMethod::call()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Command.php(136): Illuminate\\Container\\Container->call()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Command\\Command.php(299): Illuminate\\Console\\Command->execute()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#8 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Application.php(978): Illuminate\\Console\\Command->run()
+#9 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Application.php(295): Symfony\\Component\\Console\\Application->doRunCommand()
+#10 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#11 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(92): Symfony\\Component\\Console\\Application->run()
+#12 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Illuminate\\Console\\Application->run()
+#13 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#14 {main}
+"} 
+[2021-08-20 08:54:26] local.ERROR: Class "App\Console\Commands\App\Http\Controllers\RawController" not found {"exception":"[object] (Error(code: 0): Class \"App\\Console\\Commands\\App\\Http\\Controllers\\RawController\" not found at C:\\Users\\joelb\awinnovation\aw\\app\\Console\\Commands\\PlayCommand.php:44)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Console\\Commands\\PlayCommand->handle()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(651): Illuminate\\Container\\BoundMethod::call()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Command.php(136): Illuminate\\Container\\Container->call()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Command\\Command.php(299): Illuminate\\Console\\Command->execute()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#8 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Application.php(978): Illuminate\\Console\\Command->run()
+#9 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Application.php(295): Symfony\\Component\\Console\\Application->doRunCommand()
+#10 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#11 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(92): Symfony\\Component\\Console\\Application->run()
+#12 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Illuminate\\Console\\Application->run()
+#13 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#14 {main}
+"} 
+[2021-08-20 08:54:49] local.ERROR: Class "Controllers\RawController" not found {"exception":"[object] (Error(code: 0): Class \"Controllers\\RawController\" not found at C:\\Users\\joelb\awinnovation\aw\\app\\Console\\Commands\\PlayCommand.php:44)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Console\\Commands\\PlayCommand->handle()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(651): Illuminate\\Container\\BoundMethod::call()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Command.php(136): Illuminate\\Container\\Container->call()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Command\\Command.php(299): Illuminate\\Console\\Command->execute()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#8 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Application.php(978): Illuminate\\Console\\Command->run()
+#9 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Application.php(295): Symfony\\Component\\Console\\Application->doRunCommand()
+#10 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#11 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(92): Symfony\\Component\\Console\\Application->run()
+#12 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Illuminate\\Console\\Application->run()
+#13 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#14 {main}
+"} 
+[2021-08-20 08:58:09] local.ERROR: require_once(App\Http\Controllers\RawController): Failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): require_once(App\\Http\\Controllers\\RawController): Failed to open stream: No such file or directory at C:\\Users\\joelb\awinnovation\aw\\app\\Console\\Commands\\PlayCommand.php:9)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\app\\Console\\Commands\\PlayCommand.php(9): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#1 C:\\Users\\joelb\awinnovation\aw\\app\\Console\\Commands\\PlayCommand.php(9): require_once()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\composer\\ClassLoader.php(480): include('...')
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\composer\\ClassLoader.php(346): Composer\\Autoload\\includeFile()
+#4 [internal function]: Composer\\Autoload\\ClassLoader->loadClass()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(873): ReflectionClass->__construct()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#8 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#9 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(260): Laravel\\Lumen\\Application->make()
+#10 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(274): Illuminate\\Console\\Application->resolve()
+#11 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(212): Illuminate\\Console\\Application->resolveCommands()
+#12 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Laravel\\Lumen\\Console\\Kernel->getArtisan()
+#13 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#14 {main}
+"} 
+[2021-08-20 08:58:41] local.ERROR: Class "App\Console\Commands\app\Controllers\RawController" not found {"exception":"[object] (Error(code: 0): Class \"App\\Console\\Commands\\app\\Controllers\\RawController\" not found at C:\\Users\\joelb\awinnovation\aw\\app\\Console\\Commands\\PlayCommand.php:46)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Console\\Commands\\PlayCommand->handle()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(651): Illuminate\\Container\\BoundMethod::call()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Command.php(136): Illuminate\\Container\\Container->call()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Command\\Command.php(299): Illuminate\\Console\\Command->execute()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#8 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Application.php(978): Illuminate\\Console\\Command->run()
+#9 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Application.php(295): Symfony\\Component\\Console\\Application->doRunCommand()
+#10 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#11 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(92): Symfony\\Component\\Console\\Application->run()
+#12 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Illuminate\\Console\\Application->run()
+#13 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#14 {main}
+"} 
+[2021-08-20 08:59:02] local.ERROR: Class "App\Console\Commands\app\Controllers\RawController" not found {"exception":"[object] (Error(code: 0): Class \"App\\Console\\Commands\\app\\Controllers\\RawController\" not found at C:\\Users\\joelb\awinnovation\aw\\app\\Console\\Commands\\PlayCommand.php:46)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Console\\Commands\\PlayCommand->handle()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(651): Illuminate\\Container\\BoundMethod::call()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Command.php(136): Illuminate\\Container\\Container->call()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Command\\Command.php(299): Illuminate\\Console\\Command->execute()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#8 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Application.php(978): Illuminate\\Console\\Command->run()
+#9 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Application.php(295): Symfony\\Component\\Console\\Application->doRunCommand()
+#10 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#11 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(92): Symfony\\Component\\Console\\Application->run()
+#12 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Illuminate\\Console\\Application->run()
+#13 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#14 {main}
+"} 
+[2021-08-20 09:00:02] local.ERROR: Non-static method App\Http\Controllers\RawController::findWinner() cannot be called statically {"exception":"[object] (Error(code: 0): Non-static method App\\Http\\Controllers\\RawController::findWinner() cannot be called statically at C:\\Users\\joelb\awinnovation\aw\\app\\Console\\Commands\\PlayCommand.php:45)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Console\\Commands\\PlayCommand->handle()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(651): Illuminate\\Container\\BoundMethod::call()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Command.php(136): Illuminate\\Container\\Container->call()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Command\\Command.php(299): Illuminate\\Console\\Command->execute()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#8 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Application.php(978): Illuminate\\Console\\Command->run()
+#9 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Application.php(295): Symfony\\Component\\Console\\Application->doRunCommand()
+#10 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#11 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(92): Symfony\\Component\\Console\\Application->run()
+#12 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Illuminate\\Console\\Application->run()
+#13 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#14 {main}
+"} 
+[2021-08-20 09:00:40] local.ERROR: Using $this when not in object context {"exception":"[object] (Error(code: 0): Using $this when not in object context at C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php:84)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\app\\Console\\Commands\\PlayCommand.php(45): App\\Http\\Controllers\\RawController::findWinner()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Console\\Commands\\PlayCommand->handle()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(651): Illuminate\\Container\\BoundMethod::call()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Command.php(136): Illuminate\\Container\\Container->call()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Command\\Command.php(299): Illuminate\\Console\\Command->execute()
+#8 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#9 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Application.php(978): Illuminate\\Console\\Command->run()
+#10 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Application.php(295): Symfony\\Component\\Console\\Application->doRunCommand()
+#11 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#12 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(92): Symfony\\Component\\Console\\Application->run()
+#13 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Illuminate\\Console\\Application->run()
+#14 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#15 {main}
+"} 
+[2021-08-20 09:02:09] local.ERROR: Using $this when not in object context {"exception":"[object] (Error(code: 0): Using $this when not in object context at C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php:206)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\app\\Console\\Commands\\PlayCommand.php(45): App\\Http\\Controllers\\RawController::playSlot()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Console\\Commands\\PlayCommand->handle()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(651): Illuminate\\Container\\BoundMethod::call()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Command.php(136): Illuminate\\Container\\Container->call()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Command\\Command.php(299): Illuminate\\Console\\Command->execute()
+#8 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#9 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Application.php(978): Illuminate\\Console\\Command->run()
+#10 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Application.php(295): Symfony\\Component\\Console\\Application->doRunCommand()
+#11 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#12 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(92): Symfony\\Component\\Console\\Application->run()
+#13 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Illuminate\\Console\\Application->run()
+#14 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#15 {main}
+"} 
+[2021-08-20 09:05:50] local.ERROR: Call to undefined function App\Http\Controllers\json() {"exception":"[object] (Error(code: 0): Call to undefined function App\\Http\\Controllers\\json() at C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php:182)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\app\\Console\\Commands\\PlayCommand.php(47): App\\Http\\Controllers\\RawController->findWinner()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Console\\Commands\\PlayCommand->handle()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(651): Illuminate\\Container\\BoundMethod::call()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Command.php(136): Illuminate\\Container\\Container->call()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Command\\Command.php(299): Illuminate\\Console\\Command->execute()
+#8 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#9 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Application.php(978): Illuminate\\Console\\Command->run()
+#10 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Application.php(295): Symfony\\Component\\Console\\Application->doRunCommand()
+#11 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#12 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(92): Symfony\\Component\\Console\\Application->run()
+#13 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Illuminate\\Console\\Application->run()
+#14 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#15 {main}
+"} 
+[2021-08-20 09:06:16] local.ERROR: Array to string conversion {"exception":"[object] (ErrorException(code: 0): Array to string conversion at C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php:182)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php(182): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#1 C:\\Users\\joelb\awinnovation\aw\\app\\Console\\Commands\\PlayCommand.php(47): App\\Http\\Controllers\\RawController->findWinner()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Console\\Commands\\PlayCommand->handle()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(651): Illuminate\\Container\\BoundMethod::call()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Command.php(136): Illuminate\\Container\\Container->call()
+#8 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Command\\Command.php(299): Illuminate\\Console\\Command->execute()
+#9 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#10 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Application.php(978): Illuminate\\Console\\Command->run()
+#11 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Application.php(295): Symfony\\Component\\Console\\Application->doRunCommand()
+#12 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#13 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(92): Symfony\\Component\\Console\\Application->run()
+#14 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Illuminate\\Console\\Application->run()
+#15 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#16 {main}
+"} 
+[2021-08-20 09:08:01] local.ERROR: Call to undefined method App\Http\Controllers\RawController::line() {"exception":"[object] (Error(code: 0): Call to undefined method App\\Http\\Controllers\\RawController::line() at C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php:183)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\app\\Console\\Commands\\PlayCommand.php(47): App\\Http\\Controllers\\RawController->findWinner()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Console\\Commands\\PlayCommand->handle()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(651): Illuminate\\Container\\BoundMethod::call()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Command.php(136): Illuminate\\Container\\Container->call()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Command\\Command.php(299): Illuminate\\Console\\Command->execute()
+#8 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#9 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Application.php(978): Illuminate\\Console\\Command->run()
+#10 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Application.php(295): Symfony\\Component\\Console\\Application->doRunCommand()
+#11 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#12 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(92): Symfony\\Component\\Console\\Application->run()
+#13 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Illuminate\\Console\\Application->run()
+#14 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#15 {main}
+"} 
+[2021-08-20 09:28:50] local.ERROR: Undefined variable $bet {"exception":"[object] (ErrorException(code: 0): Undefined variable $bet at C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php:55)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php(55): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#1 C:\\Users\\joelb\awinnovation\aw\\app\\Console\\Commands\\PlayCommand.php(47): App\\Http\\Controllers\\RawController->findWinner()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Console\\Commands\\PlayCommand->handle()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(651): Illuminate\\Container\\BoundMethod::call()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Command.php(136): Illuminate\\Container\\Container->call()
+#8 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Command\\Command.php(299): Illuminate\\Console\\Command->execute()
+#9 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#10 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Application.php(978): Illuminate\\Console\\Command->run()
+#11 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Application.php(295): Symfony\\Component\\Console\\Application->doRunCommand()
+#12 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#13 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(92): Symfony\\Component\\Console\\Application->run()
+#14 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Illuminate\\Console\\Application->run()
+#15 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#16 {main}
+"} 
+[2021-08-20 09:30:47] local.ERROR: Undefined variable $q {"exception":"[object] (ErrorException(code: 0): Undefined variable $q at C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php:120)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php(120): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#1 C:\\Users\\joelb\awinnovation\aw\\app\\Console\\Commands\\PlayCommand.php(47): App\\Http\\Controllers\\RawController->findWinner()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Console\\Commands\\PlayCommand->handle()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(651): Illuminate\\Container\\BoundMethod::call()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Command.php(136): Illuminate\\Container\\Container->call()
+#8 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Command\\Command.php(299): Illuminate\\Console\\Command->execute()
+#9 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#10 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Application.php(978): Illuminate\\Console\\Command->run()
+#11 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Application.php(295): Symfony\\Component\\Console\\Application->doRunCommand()
+#12 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#13 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(92): Symfony\\Component\\Console\\Application->run()
+#14 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Illuminate\\Console\\Application->run()
+#15 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#16 {main}
+"} 

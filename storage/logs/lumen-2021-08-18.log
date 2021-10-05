@@ -1,0 +1,9 @@
+[2021-08-18 14:16:01] local.ERROR: Command "serve" is not defined. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"serve\" is not defined. at C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Application.php:682)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Application.php(255): Symfony\\Component\\Console\\Application->find()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\symfony\\console\\Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\console\\Application.php(92): Symfony\\Component\\Console\\Application->run()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Illuminate\\Console\\Application->run()
+#4 C:\\Users\\joelb\awinnovation\aw\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#5 {main}
+"} 

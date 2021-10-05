@@ -1,0 +1,580 @@
+[2021-08-19 08:45:14] local.ERROR: Cannot use a scalar value as an array {"exception":"[object] (Error(code: 0): Cannot use a scalar value as an array at C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php:20)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\RawController->generateBoard()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(651): Illuminate\\Container\\BoundMethod::call()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(386): Illuminate\\Container\\Container->call()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(352): Laravel\\Lumen\\Application->callControllerCallable()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(326): Laravel\\Lumen\\Application->callLumenController()
+#8 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction()
+#9 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(264): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#10 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute()
+#11 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#12 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#13 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#14 C:\\Users\\joelb\awinnovation\aw\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#15 {main}
+"} 
+[2021-08-19 09:04:10] local.ERROR: Undefined variable $board {"exception":"[object] (ErrorException(code: 0): Undefined variable $board at C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php:41)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php(41): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\RawController->winSum()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(651): Illuminate\\Container\\BoundMethod::call()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(386): Illuminate\\Container\\Container->call()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(352): Laravel\\Lumen\\Application->callControllerCallable()
+#8 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(326): Laravel\\Lumen\\Application->callLumenController()
+#9 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction()
+#10 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(264): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#11 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute()
+#12 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#13 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#14 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#15 C:\\Users\\joelb\awinnovation\aw\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#16 {main}
+"} 
+[2021-08-19 09:09:15] local.ERROR: Array to string conversion {"exception":"[object] (ErrorException(code: 0): Array to string conversion at C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php:38)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php(38): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\RawController->generateBoard()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(651): Illuminate\\Container\\BoundMethod::call()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(386): Illuminate\\Container\\Container->call()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(352): Laravel\\Lumen\\Application->callControllerCallable()
+#8 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(326): Laravel\\Lumen\\Application->callLumenController()
+#9 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction()
+#10 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(264): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#11 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute()
+#12 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#13 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#14 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#15 C:\\Users\\joelb\awinnovation\aw\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#16 {main}
+"} 
+[2021-08-19 09:10:07] local.ERROR: Array to string conversion {"exception":"[object] (ErrorException(code: 0): Array to string conversion at C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php:38)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php(38): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\RawController->generateBoard()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(651): Illuminate\\Container\\BoundMethod::call()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(386): Illuminate\\Container\\Container->call()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(352): Laravel\\Lumen\\Application->callControllerCallable()
+#8 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(326): Laravel\\Lumen\\Application->callLumenController()
+#9 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction()
+#10 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(264): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#11 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute()
+#12 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#13 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#14 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#15 C:\\Users\\joelb\awinnovation\aw\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#16 {main}
+"} 
+[2021-08-19 09:12:19] local.ERROR: syntax error, unexpected double-quoted string " key: ", expecting "," or ";" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected double-quoted string \" key: \", expecting \",\" or \";\" at C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php:39)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\composer\\ClassLoader.php(346): Composer\\Autoload\\includeFile()
+#1 [internal function]: Composer\\Autoload\\ClassLoader->loadClass()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(873): ReflectionClass->__construct()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(321): Laravel\\Lumen\\Application->make()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction()
+#8 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(264): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#9 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute()
+#10 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#11 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#12 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#13 C:\\Users\\joelb\awinnovation\aw\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#14 {main}
+"} 
+[2021-08-19 09:12:54] local.ERROR: syntax error, unexpected single-quoted string " key: ", expecting "," or ";" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected single-quoted string \" key: \", expecting \",\" or \";\" at C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php:39)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\composer\\ClassLoader.php(346): Composer\\Autoload\\includeFile()
+#1 [internal function]: Composer\\Autoload\\ClassLoader->loadClass()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(873): ReflectionClass->__construct()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(321): Laravel\\Lumen\\Application->make()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction()
+#8 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(264): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#9 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute()
+#10 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#11 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#12 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#13 C:\\Users\\joelb\awinnovation\aw\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#14 {main}
+"} 
+[2021-08-19 09:13:02] local.ERROR: syntax error, unexpected single-quoted string " key: ", expecting "," or ";" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected single-quoted string \" key: \", expecting \",\" or \";\" at C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php:39)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\composer\\ClassLoader.php(346): Composer\\Autoload\\includeFile()
+#1 [internal function]: Composer\\Autoload\\ClassLoader->loadClass()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(873): ReflectionClass->__construct()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(321): Laravel\\Lumen\\Application->make()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction()
+#8 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(264): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#9 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute()
+#10 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#11 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#12 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#13 C:\\Users\\joelb\awinnovation\aw\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#14 {main}
+"} 
+[2021-08-19 09:29:00] local.ERROR: syntax error, unexpected token "}" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected token \"}\" at C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php:71)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\composer\\ClassLoader.php(346): Composer\\Autoload\\includeFile()
+#1 [internal function]: Composer\\Autoload\\ClassLoader->loadClass()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(873): ReflectionClass->__construct()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(321): Laravel\\Lumen\\Application->make()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction()
+#8 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(264): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#9 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute()
+#10 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#11 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#12 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#13 C:\\Users\\joelb\awinnovation\aw\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#14 {main}
+"} 
+[2021-08-19 10:03:07] local.ERROR: Class "App\Http\Controllers\generateBoard" not found {"exception":"[object] (Error(code: 0): Class \"App\\Http\\Controllers\\generateBoard\" not found at C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php:84)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\RawController->findWinner()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(651): Illuminate\\Container\\BoundMethod::call()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(386): Illuminate\\Container\\Container->call()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(352): Laravel\\Lumen\\Application->callControllerCallable()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(326): Laravel\\Lumen\\Application->callLumenController()
+#8 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction()
+#9 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(264): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#10 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute()
+#11 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#12 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#13 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#14 C:\\Users\\joelb\awinnovation\aw\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#15 {main}
+"} 
+[2021-08-19 10:04:17] local.ERROR: Call to undefined function App\Http\Controllers\generateBoard() {"exception":"[object] (Error(code: 0): Call to undefined function App\\Http\\Controllers\\generateBoard() at C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php:84)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\RawController->findWinner()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(651): Illuminate\\Container\\BoundMethod::call()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(386): Illuminate\\Container\\Container->call()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(352): Laravel\\Lumen\\Application->callControllerCallable()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(326): Laravel\\Lumen\\Application->callLumenController()
+#8 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction()
+#9 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(264): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#10 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute()
+#11 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#12 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#13 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#14 C:\\Users\\joelb\awinnovation\aw\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#15 {main}
+"} 
+[2021-08-19 10:16:06] local.ERROR: Undefined variable $streak {"exception":"[object] (ErrorException(code: 0): Undefined variable $streak at C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php:97)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php(97): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\RawController->findWinner()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(651): Illuminate\\Container\\BoundMethod::call()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(386): Illuminate\\Container\\Container->call()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(352): Laravel\\Lumen\\Application->callControllerCallable()
+#8 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(326): Laravel\\Lumen\\Application->callLumenController()
+#9 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction()
+#10 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(264): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#11 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute()
+#12 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#13 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#14 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#15 C:\\Users\\joelb\awinnovation\aw\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#16 {main}
+"} 
+[2021-08-19 10:18:04] local.ERROR: Cannot use a scalar value as an array {"exception":"[object] (Error(code: 0): Cannot use a scalar value as an array at C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php:92)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\RawController->findWinner()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(651): Illuminate\\Container\\BoundMethod::call()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(386): Illuminate\\Container\\Container->call()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(352): Laravel\\Lumen\\Application->callControllerCallable()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(326): Laravel\\Lumen\\Application->callLumenController()
+#8 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction()
+#9 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(264): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#10 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute()
+#11 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#12 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#13 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#14 C:\\Users\\joelb\awinnovation\aw\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#15 {main}
+"} 
+[2021-08-19 10:25:59] local.ERROR: Undefined variable $i {"exception":"[object] (ErrorException(code: 0): Undefined variable $i at C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php:90)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php(90): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\RawController->findWinner()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(651): Illuminate\\Container\\BoundMethod::call()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(386): Illuminate\\Container\\Container->call()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(352): Laravel\\Lumen\\Application->callControllerCallable()
+#8 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(326): Laravel\\Lumen\\Application->callLumenController()
+#9 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction()
+#10 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(264): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#11 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute()
+#12 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#13 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#14 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#15 C:\\Users\\joelb\awinnovation\aw\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#16 {main}
+"} 
+[2021-08-19 11:04:55] local.ERROR: Array to string conversion {"exception":"[object] (ErrorException(code: 0): Array to string conversion at C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php:127)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php(127): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\RawController->findWinner()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(651): Illuminate\\Container\\BoundMethod::call()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(386): Illuminate\\Container\\Container->call()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(352): Laravel\\Lumen\\Application->callControllerCallable()
+#8 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(326): Laravel\\Lumen\\Application->callLumenController()
+#9 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction()
+#10 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(264): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#11 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute()
+#12 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#13 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#14 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#15 C:\\Users\\joelb\awinnovation\aw\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#16 {main}
+"} 
+[2021-08-19 11:05:08] local.ERROR: printf(): Argument #1 ($format) must be of type string, array given {"exception":"[object] (TypeError(code: 0): printf(): Argument #1 ($format) must be of type string, array given at C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php:127)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php(127): printf()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\RawController->findWinner()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(651): Illuminate\\Container\\BoundMethod::call()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(386): Illuminate\\Container\\Container->call()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(352): Laravel\\Lumen\\Application->callControllerCallable()
+#8 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(326): Laravel\\Lumen\\Application->callLumenController()
+#9 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction()
+#10 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(264): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#11 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute()
+#12 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#13 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#14 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#15 C:\\Users\\joelb\awinnovation\aw\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#16 {main}
+"} 
+[2021-08-19 11:26:08] local.ERROR: Method Laravel\Lumen\Http\ResponseFactory::json_encode does not exist. {"exception":"[object] (BadMethodCallException(code: 0): Method Laravel\\Lumen\\Http\\ResponseFactory::json_encode does not exist. at C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\macroable\\Traits\\Macroable.php:103)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php(136): Laravel\\Lumen\\Http\\ResponseFactory->__call()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\RawController->findWinner()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(651): Illuminate\\Container\\BoundMethod::call()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(386): Illuminate\\Container\\Container->call()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(352): Laravel\\Lumen\\Application->callControllerCallable()
+#8 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(326): Laravel\\Lumen\\Application->callLumenController()
+#9 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction()
+#10 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(264): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#11 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute()
+#12 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#13 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#14 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#15 C:\\Users\\joelb\awinnovation\aw\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#16 {main}
+"} 
+[2021-08-19 12:21:31] local.ERROR: foreach() argument must be of type array|object, string given {"exception":"[object] (ErrorException(code: 0): foreach() argument must be of type array|object, string given at C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php:121)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php(121): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\RawController->findWinner()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(651): Illuminate\\Container\\BoundMethod::call()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(386): Illuminate\\Container\\Container->call()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(352): Laravel\\Lumen\\Application->callControllerCallable()
+#8 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(326): Laravel\\Lumen\\Application->callLumenController()
+#9 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction()
+#10 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(264): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#11 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute()
+#12 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#13 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#14 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#15 C:\\Users\\joelb\awinnovation\aw\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#16 {main}
+"} 
+[2021-08-19 12:33:12] local.ERROR: syntax error, unexpected token "}", expecting ";" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected token \"}\", expecting \";\" at C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php:155)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\composer\\ClassLoader.php(346): Composer\\Autoload\\includeFile()
+#1 [internal function]: Composer\\Autoload\\ClassLoader->loadClass()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(873): ReflectionClass->__construct()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(754): Illuminate\\Container\\Container->build()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(692): Illuminate\\Container\\Container->resolve()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(321): Laravel\\Lumen\\Application->make()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction()
+#8 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(264): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#9 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute()
+#10 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#11 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#12 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#13 C:\\Users\\joelb\awinnovation\aw\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#14 {main}
+"} 
+[2021-08-19 12:55:10] local.ERROR: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements {"exception":"[object] (ValueError(code: 0): array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements at C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php:134)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php(134): array_combine()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\RawController->findWinner()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(651): Illuminate\\Container\\BoundMethod::call()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(386): Illuminate\\Container\\Container->call()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(352): Laravel\\Lumen\\Application->callControllerCallable()
+#8 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(326): Laravel\\Lumen\\Application->callLumenController()
+#9 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction()
+#10 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(264): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#11 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute()
+#12 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#13 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#14 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#15 C:\\Users\\joelb\awinnovation\aw\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#16 {main}
+"} 
+[2021-08-19 13:09:03] local.ERROR: Call to undefined function App\Http\Controllers\isspace() {"exception":"[object] (Error(code: 0): Call to undefined function App\\Http\\Controllers\\isspace() at C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php:130)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\RawController->findWinner()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(651): Illuminate\\Container\\BoundMethod::call()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(386): Illuminate\\Container\\Container->call()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(352): Laravel\\Lumen\\Application->callControllerCallable()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(326): Laravel\\Lumen\\Application->callLumenController()
+#8 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction()
+#9 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(264): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#10 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute()
+#11 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#12 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#13 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#14 C:\\Users\\joelb\awinnovation\aw\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#15 {main}
+"} 
+[2021-08-19 13:25:54] local.ERROR: Undefined variable $paylines2 {"exception":"[object] (ErrorException(code: 0): Undefined variable $paylines2 at C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php:164)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php(164): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\RawController->findWinner()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(651): Illuminate\\Container\\BoundMethod::call()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(386): Illuminate\\Container\\Container->call()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(352): Laravel\\Lumen\\Application->callControllerCallable()
+#8 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(326): Laravel\\Lumen\\Application->callLumenController()
+#9 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction()
+#10 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(264): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#11 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute()
+#12 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#13 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#14 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#15 C:\\Users\\joelb\awinnovation\aw\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#16 {main}
+"} 
+[2021-08-19 13:25:56] local.ERROR: Undefined variable $paylines2 {"exception":"[object] (ErrorException(code: 0): Undefined variable $paylines2 at C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php:164)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php(164): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\RawController->findWinner()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(651): Illuminate\\Container\\BoundMethod::call()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(386): Illuminate\\Container\\Container->call()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(352): Laravel\\Lumen\\Application->callControllerCallable()
+#8 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(326): Laravel\\Lumen\\Application->callLumenController()
+#9 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction()
+#10 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(264): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#11 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute()
+#12 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#13 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#14 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#15 C:\\Users\\joelb\awinnovation\aw\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#16 {main}
+"} 
+[2021-08-19 13:35:39] local.ERROR: Unsupported operand types: Illuminate\Http\JsonResponse + array {"exception":"[object] (TypeError(code: 0): Unsupported operand types: Illuminate\\Http\\JsonResponse + array at C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php:168)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\RawController->findWinner()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(651): Illuminate\\Container\\BoundMethod::call()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(386): Illuminate\\Container\\Container->call()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(352): Laravel\\Lumen\\Application->callControllerCallable()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(326): Laravel\\Lumen\\Application->callLumenController()
+#8 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction()
+#9 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(264): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#10 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute()
+#11 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#12 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#13 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#14 C:\\Users\\joelb\awinnovation\aw\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#15 {main}
+"} 
+[2021-08-19 13:35:46] local.ERROR: Array to string conversion {"exception":"[object] (ErrorException(code: 0): Array to string conversion at C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php:168)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php(168): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\RawController->findWinner()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(651): Illuminate\\Container\\BoundMethod::call()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(386): Illuminate\\Container\\Container->call()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(352): Laravel\\Lumen\\Application->callControllerCallable()
+#8 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(326): Laravel\\Lumen\\Application->callLumenController()
+#9 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction()
+#10 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(264): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#11 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute()
+#12 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#13 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#14 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#15 C:\\Users\\joelb\awinnovation\aw\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#16 {main}
+"} 
+[2021-08-19 13:47:43] local.ERROR: Undefined variable $bet {"exception":"[object] (ErrorException(code: 0): Undefined variable $bet at C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php:170)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php(170): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\RawController->findWinner()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(651): Illuminate\\Container\\BoundMethod::call()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(386): Illuminate\\Container\\Container->call()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(352): Laravel\\Lumen\\Application->callControllerCallable()
+#8 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(326): Laravel\\Lumen\\Application->callLumenController()
+#9 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction()
+#10 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(264): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#11 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute()
+#12 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#13 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#14 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#15 C:\\Users\\joelb\awinnovation\aw\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#16 {main}
+"} 
+[2021-08-19 13:48:02] local.ERROR: Undefined variable $board_array {"exception":"[object] (ErrorException(code: 0): Undefined variable $board_array at C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php:174)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php(174): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\RawController->findWinner()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(651): Illuminate\\Container\\BoundMethod::call()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(386): Illuminate\\Container\\Container->call()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(352): Laravel\\Lumen\\Application->callControllerCallable()
+#8 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(326): Laravel\\Lumen\\Application->callLumenController()
+#9 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction()
+#10 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(264): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#11 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute()
+#12 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#13 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#14 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#15 C:\\Users\\joelb\awinnovation\aw\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#16 {main}
+"} 
+[2021-08-19 14:02:55] local.ERROR: Undefined constant "App\Http\Controllers\board" {"exception":"[object] (Error(code: 0): Undefined constant \"App\\Http\\Controllers\\board\" at C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php:172)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\RawController->findWinner()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(651): Illuminate\\Container\\BoundMethod::call()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(386): Illuminate\\Container\\Container->call()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(352): Laravel\\Lumen\\Application->callControllerCallable()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(326): Laravel\\Lumen\\Application->callLumenController()
+#8 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction()
+#9 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(264): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#10 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute()
+#11 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#12 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#13 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#14 C:\\Users\\joelb\awinnovation\aw\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#15 {main}
+"} 
+[2021-08-19 14:03:28] local.ERROR: Undefined constant "App\Http\Controllers\board" {"exception":"[object] (Error(code: 0): Undefined constant \"App\\Http\\Controllers\\board\" at C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php:172)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\RawController->findWinner()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(651): Illuminate\\Container\\BoundMethod::call()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(386): Illuminate\\Container\\Container->call()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(352): Laravel\\Lumen\\Application->callControllerCallable()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(326): Laravel\\Lumen\\Application->callLumenController()
+#8 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction()
+#9 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(264): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#10 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute()
+#11 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#12 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#13 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#14 C:\\Users\\joelb\awinnovation\aw\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#15 {main}
+"} 
+[2021-08-19 14:03:29] local.ERROR: Undefined constant "App\Http\Controllers\board" {"exception":"[object] (Error(code: 0): Undefined constant \"App\\Http\\Controllers\\board\" at C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php:172)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\RawController->findWinner()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(651): Illuminate\\Container\\BoundMethod::call()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(386): Illuminate\\Container\\Container->call()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(352): Laravel\\Lumen\\Application->callControllerCallable()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(326): Laravel\\Lumen\\Application->callLumenController()
+#8 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction()
+#9 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(264): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#10 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute()
+#11 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#12 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#13 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#14 C:\\Users\\joelb\awinnovation\aw\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#15 {main}
+"} 
+[2021-08-19 14:03:47] local.ERROR: Undefined constant "App\Http\Controllers\board" {"exception":"[object] (Error(code: 0): Undefined constant \"App\\Http\\Controllers\\board\" at C:\\Users\\joelb\awinnovation\aw\\app\\Http\\Controllers\\RawController.php:172)
+[stacktrace]
+#0 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\RawController->findWinner()
+#1 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#2 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#3 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#4 C:\\Users\\joelb\awinnovation\aw\\vendor\\illuminate\\container\\Container.php(651): Illuminate\\Container\\BoundMethod::call()
+#5 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(386): Illuminate\\Container\\Container->call()
+#6 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(352): Laravel\\Lumen\\Application->callControllerCallable()
+#7 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(326): Laravel\\Lumen\\Application->callLumenController()
+#8 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction()
+#9 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(264): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#10 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute()
+#11 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#12 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#13 C:\\Users\\joelb\awinnovation\aw\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#14 C:\\Users\\joelb\awinnovation\aw\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#15 {main}
+"} 
